@@ -45,7 +45,7 @@
         </el-tab-pane>
 
         <el-tab-pane label="方法调试" name="debug" lazy>
-          <MethodDebug :code="info.algorithm.code" />
+          <MethodDebug :code="info.algorithm.code" :stateful="info.algorithm.stateful" />
         </el-tab-pane>
       </el-tabs>
     </template>
